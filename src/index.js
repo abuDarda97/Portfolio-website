@@ -1,16 +1,16 @@
 const React = require('react');
 const ReactDOM = require('react-dom');
-require('./index.css');
+import './index.css';
 
 class Hello extends React.Component {
   render() {
     return (
-      <h1>Helllo</h1>
+      <h1>Hello</h1>
     );
   }
 }
 
 ReactDOM.render(
-  <Hellllllllllllo />,
+  <Hello />,
   document.getElementById('app')
 );

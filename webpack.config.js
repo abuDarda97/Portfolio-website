@@ -1,5 +1,5 @@
-var path = require('path')
-var HTMLWebpackPlugin = require('html-webpack-plugin')
+var path = require('path');
+var HTMLWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: './src/index.js',
@@ -19,4 +19,4 @@ module.exports = {
       template: 'src/index.html'
     })
   ]
-}
+};
