@@ -1,7 +1,7 @@
 import React from 'react';
 import './Navbar.css';
 
-import ToggleButton from '../toggleButton/ToggleButton';
+import ToggleButton from '../ToggleButton/ToggleButton';
 
 const Navbar = (props) => {
   return (

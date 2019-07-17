@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Navbar from './components/navbar/Navbar';
-import SideDrawer from './components/sideDrawer/SideDrawer';
+import Navbar from './components/Navbar/Navbar';
+import SideDrawer from './components/SideDrawer/SideDrawer';
 
 const App = () => {
   return (
