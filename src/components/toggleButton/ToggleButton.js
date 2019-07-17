@@ -1,4 +1,4 @@
-import './toggleButton.css';
+import './ToggleButton.css';
 import React from 'react';
 
 const ToggleButton = () => {
