@@ -1,15 +1,15 @@
 import React from 'react';
 import './SideDrawer.css';
 
-const SideDrawer = (props) => {
+const SideDrawer = props => {
   return (
-    <div>
-      <ul>
+    <nav className='side-drawer'>
+      <ol className='side-drawer--list'>
         <li><a>About me</a></li>
         <li><a>Projects</a></li>
         <li><a>Contact</a></li>
-      </ul>
-    </div>
+      </ol>
+    </nav>
   ); 
 };
 

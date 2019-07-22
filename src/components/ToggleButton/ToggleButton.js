@@ -1,11 +1,11 @@
 import './ToggleButton.css';
 import React from 'react';
 
-const ToggleButton = () => {
+const ToggleButton = props => {
   return (
-    <a className="sidenav-trigger" data-target="mobile">
+    <button className='button--toggle'>
       <i className="material-icons">menu</i>
-    </a>
+    </button>
   );
 };
 

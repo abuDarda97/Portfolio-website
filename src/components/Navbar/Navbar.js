@@ -3,23 +3,25 @@ import './Navbar.css';
 
 import ToggleButton from '../ToggleButton/ToggleButton';
 
-const Navbar = (props) => {
+const Navbar = props => {
   return (
-    <div>
-      <nav>
-        <div className="nav-wrapper">
-          <div className="container">
-            <ToggleButton />
-            <a href="#" className="brand-logo right">/A</a>
-            <ul id="nav" className="left hide-on-med-and-down">
-              <li><a>About me</a></li>
-              <li><a>Projects</a></li>
-              <li><a>Contact</a></li>
-            </ul>
-          </div>
+    <header className='navbar'>
+      <nav className='navbar__nav'>
+        <div>
+          <ToggleButton />
+        </div>
+        <div className='navbar__logo'>
+          <a href='#'>/A</a>
+        </div>
+        <div className='navbar__elements'>
+          <ul>
+            <li><a>About me</a></li>
+            <li><a>Projects</a></li>
+            <li><a>Contact</a></li>
+          </ul>
         </div>
       </nav>
-    </div>
+    </header>
   );
 };
 

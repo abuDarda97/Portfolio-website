@@ -1,0 +1,17 @@
+.side-drawer {
+  height: 100%;
+  position: fixed;
+  background-color: rgb(228, 220, 220);
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5); 
+  top: 0;
+  left: 0;
+  width: 400px;
+  color: black;
+  z-index: 200;
+}
+
+
+.side-drawer__list {
+  list-style: none;
+  color: black;
+}
