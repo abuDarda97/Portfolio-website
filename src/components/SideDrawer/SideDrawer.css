@@ -5,13 +5,20 @@
   box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5); 
   top: 0;
   left: 0;
-  width: 400px;
+  width: 300px;
   color: black;
   z-index: 200;
 }
 
-
-.side-drawer__list {
+.side-drawer ul {
+  height: 100%;
   list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.side-drawer a {
+  text-decoration: none;
   color: black;
+  
 }

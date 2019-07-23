@@ -8,8 +8,8 @@ const App = () => {
   return (
     <div style={{height: '100%'}}>
       <Navbar />
-      {/* <SideDrawer /> */}
-      {/* <Backdrop /> */}
+      <SideDrawer />
+      <Backdrop />
     </div>
   );
 };
