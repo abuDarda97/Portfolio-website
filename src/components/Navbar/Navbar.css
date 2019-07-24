@@ -7,17 +7,41 @@
   height: 50px;
 }
 
+.navbar__hamburger {
+  /* color: chartreuse; */
+  display: flex;
+  justify-content: right;
+}
+
 .navbar__nav {
   display: flex;
+  align-items: center;
+}
+
+.navbar__nav li {
+  list-style: none;
 }
 
 .navbar__logo {
  color: pink;
 }
 
-.navbar__elements {
+.navbar__elements a {
   font-family: 'DM Serif Display', serif;
   font-size: 20px;
   color: red;
   display: inherit;
+  padding: 0 0.6rem;
 }
+
+.navbar__elements a:hover {
+  color: brown;
+  cursor: pointer;
+}
+
+/* responsive */
+@media screen and (max-width: 300px) {
+  .navbar__elements a {
+    display: none;
+  }
+} 
