@@ -1,10 +1,14 @@
 import React from 'react';
 
-import Navigation from './components/Navbar/Navbar';
+import Navbar from './components/Navbar/Navbar';
 
 const App = () => {
   return (
-    <Navigation />
+    <div style={{height: '100%'}}>
+      <Navbar />
+      {/* <SideDrawer /> */}
+      {/* <Backdrop /> */}
+    </div>
   );
 };
 
