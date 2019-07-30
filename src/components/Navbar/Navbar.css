@@ -42,6 +42,6 @@
   }
   .navbar__hamburger {
     display: flex;
-    justify-content: left;
+    justify-content: right;
   }
 } 

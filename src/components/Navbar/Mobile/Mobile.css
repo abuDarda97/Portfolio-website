@@ -1,0 +1,11 @@
+ .mobile__navbar {
+  width: 100%;
+  height: 200px;
+  background-color: azure;
+ }
+
+@media (min-width: 800px) and (max-width: 1280px) {
+  ul {
+    display: none;
+  }
+}
