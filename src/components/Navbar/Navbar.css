@@ -1,5 +1,4 @@
 .navbar {
-  background-color: slategray;
   position: fixed;
   top: 0;
   left: 0;
@@ -15,6 +14,7 @@
   display: flex;
   align-items: center;
   list-style: none;
+  margin: 6px 0;
 }
 
 .navbar__logo {
@@ -24,14 +24,15 @@
 .navbar__elements {
   font-family: 'DM Serif Display', serif;
   font-size: 1.3rem;
-  color: rgb(247, 137, 142);
+  color: rgb(10, 108, 253);
   display: inherit;
-  padding: 0 0.6rem;
+  padding: 10px 10px;
   text-decoration: none;
+  transition: all 0.5s ease-in;
 }
 
 .navbar__elements:hover {
-  color: brown;
+  color: rgb(8, 8, 48);
   cursor: pointer;
 }
 
@@ -43,5 +44,6 @@
   .navbar__hamburger {
     display: flex;
     justify-content: right;
+    margin-top: 8px;
   }
 } 
