@@ -1,5 +1,4 @@
  .mobile__navbar--collapsed {
-  background-color: azure;
   list-style: none;
   font-family: 'DM Serif Display', serif;
   width: 100%;
@@ -9,11 +8,11 @@
  }
 
  .mobile__navbar--expanded {
-  background-color: azure;
   list-style: none;
   font-family: 'DM Serif Display', serif;
   width: 100%;
   height: 150px;
+  overflow: auto;
   transition: all 0.5s ease-in;
  }
 
@@ -23,7 +22,6 @@
   padding: 4px;
   font-size: 1.2rem;
   color: rgb(10, 108, 253);
-  transition: all 0.5s ease-in;
 }
 
 .mobile__navbar__list:hover {

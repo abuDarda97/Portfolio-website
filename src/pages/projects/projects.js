@@ -1,10 +1,17 @@
 import React from 'react';
 
-const projects = props => {
+import './projects.css';
+
+import Cards from './cards/cards';
+
+const projects = () => {
   return (
-    <h1>
-      PROJECTS
-    </h1>
+    <div>
+      <h1 className='title'>
+        PROJECTS
+      </h1>
+      <Cards />
+    </div>
   );
 };
 
