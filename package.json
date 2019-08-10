@@ -10,8 +10,7 @@
     ]
   },
   "scripts": {
-    "start": "webpack-dev-server --open",
-    "lint": "eslint src"
+    "start": "webpack-dev-server --open"
   },
   "keywords": [],
   "author": "",
