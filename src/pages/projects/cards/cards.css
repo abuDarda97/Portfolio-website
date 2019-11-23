@@ -6,17 +6,47 @@
   margin-right: 23px;
 }
 
+.grid {
+  margin-top: 50px;
+}
+
 .grid__items {
   padding: 10px 10px;
-  border: 0.5px solid black;
   margin: 10px;
   width: 200px;
+  height: 180px;
   transition: all 0.4s ease-in;
-  cursor: pointer;
+  /* cursor: pointer; */
+  border: 0.5px solid grey;
 }
 
 .grid__items:hover {
   box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+}
+
+.grid__title {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-bottom: 2px solid black;
+}
+
+.grid__button {
+  margin: 5px;
+  background: rgb(165, 163, 163);
+  border: none;
+  border-radius: 30px;
+  padding: 7px 15px;
+  text-decoration: none;
+  transition: all 0.4s ease-in;
+}
+
+a {
+  color: black;
+}
+
+.grid__button:hover {
+  background: #0069eb;
 }
 
 .grid {
@@ -34,5 +64,6 @@
     max-height: 520px;
     overflow: scroll;
     scroll-behavior: smooth;
+    margin: 0px;
   }
 } 

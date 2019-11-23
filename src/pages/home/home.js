@@ -2,11 +2,18 @@ import React from 'react';
 
 import './home.css';
 
-import backgroundImg from '../../images/black-and-white.jpg';
+import coolImg from '../../images/cool-background.svg';
 
 const home = props => {
   return (
-    <img src={ backgroundImg } />
+    <div>
+      <img src={ coolImg } />
+      <div>
+        <h1>
+          Welcome to my website.
+        </h1>
+      </div>
+    </div>
   );
 };
 

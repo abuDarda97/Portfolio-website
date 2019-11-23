@@ -22,6 +22,7 @@
   padding: 4px;
   font-size: 1.2rem;
   color: rgb(10, 108, 253);
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .mobile__navbar__list:hover {
