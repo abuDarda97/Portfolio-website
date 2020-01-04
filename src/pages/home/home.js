@@ -1,16 +1,19 @@
 import React from 'react';
-
+import Particles from '../../components/Particles/particles'
 import './home.css';
 
-import coolImg from '../../images/cool-background.svg';
-
-const home = props => {
+const home = () => {
   return (
     <div>
-      <img src={ coolImg } />
       <div>
+        <Particles/>
+      </div>
+      <div id='text'>
         <h1>
-          Welcome to my website.
+          Hello, I'm <span id='name'>Abu Darda</span>.
+        </h1>
+        <h1>
+          I'm a software developer.
         </h1>
       </div>
     </div>
