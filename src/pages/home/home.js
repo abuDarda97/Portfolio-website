@@ -1,21 +1,26 @@
 import React from 'react';
-import Particles from '../../components/Particles/particles'
 import './home.css';
+
+import Particles from '../../components/Particles/particles';
+import {Button} from 'react-bootstrap';
 
 const home = () => {
   return (
     <div>
-      <div>
-        <Particles/>
+      <div id='sentence-center'>
+        <div>
+          Hello, I'm <span id='name'>Abu Darda</span>
+        </div>
+        <div>
+          I'm a software developer
+        </div>
       </div>
-      <div id='text'>
-        <h1>
-          Hello, I'm <span id='name'>Abu Darda</span>.
-        </h1>
-        <h1>
-          I'm a software developer.
-        </h1>
+      <div id='button-center'>
+        <Button variant='primary' size='lg'>
+          My work...
+        </Button>
       </div>
+      <Particles />
     </div>
   );
 };

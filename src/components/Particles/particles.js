@@ -4,7 +4,7 @@ import Particles from 'react-particles-js';
 const particleOptions = {
   'particles': {
     'number': {
-      'value': 80,
+      'value': 100,
       'density': {
         'enable': true,
         'value_area': 700
@@ -20,11 +20,11 @@ const particleOptions = {
         'color': '#000000'
       },
       'polygon': {
-        'nb_sides': 5
+        'nb_sides': 10
       },
     },
     'opacity': {
-      'value': 0.5,
+      'value': 0,
       'random': false,
       'anim': {
         'enable': false,
@@ -34,7 +34,7 @@ const particleOptions = {
       }
     },
     'size': {
-      'value': 3,
+      'value': 5,
       'random': true,
       'anim': {
         'enable': false,
