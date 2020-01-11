@@ -7,12 +7,6 @@ body {
   font-family: 'Barlow', sans-serif; 
 }
 
-.font-style {
-  font-size: 40px;
-  color: aliceblue;
-}
-
-
 canvas{
   position: absolute;
   width: 100%;
@@ -22,6 +16,11 @@ canvas{
 
 /*Desktop Query*/
 @media only screen and (min-width: 768px) {
+  .font-style {
+    font-size: 40px;
+    color: aliceblue;
+  }
+
   #sentence-formatting {
     padding-bottom: 30px;
     margin-left: -80px;
@@ -42,8 +41,26 @@ canvas{
 
 /*Mobile Query*/
 @media only screen and (max-width: 480px) {
-  body {
-    background-color: tomato;
+  .font-style {
+    font-size: 30px;
+    color: aliceblue;
+  }
+
+  #sentence-formatting {
+    padding-bottom: 30px;
+    margin-left: -40px;
+  }
+  
+  .content-center {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    height: 30px;
+    left: 50%;
+    top: 50%;
+    margin-top: -160px;   
+    margin-left: -90px; 
+    position: fixed;  
   }
 }
 
@@ -52,4 +69,5 @@ canvas{
   body {
     background: pink;
   }
+  
 }

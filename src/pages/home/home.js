@@ -10,7 +10,7 @@ const home = () => {
       <div className='content-center'>
         <div className='font-style' id='sentence-formatting'>
           <div>
-            Hello, I'm <span id='name'>Abu Darda</span>
+            Hello, I'm <span id='name'>Abu Darda</span>!
           </div>
           <div>
             I'm a software developer
