@@ -66,8 +66,25 @@ canvas{
 
 /*Tablet Query*/
 @media only screen and (min-width: 481px) and (max-width:768px) {
-  body {
-    background: pink;
+  .font-style {
+    font-size: 30px;
+    color: aliceblue;
   }
   
+  #sentence-formatting {
+    padding-bottom: 30px;
+    margin-left: -40px;
+  }
+  
+  .content-center {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    height: 30px;
+    left: 50%;
+    top: 50%;
+    margin-top: -160px;   
+    margin-left: -90px; 
+    position: fixed;  
+  }
 }
