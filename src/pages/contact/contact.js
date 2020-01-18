@@ -1,10 +1,14 @@
 import React from 'react';
+import Navigation from '../../components/Navbar/Navigation';
 
 const contact = props => {
   return (
-    <h1>
-      CONTACT
-    </h1>
+    <div>
+      <Navigation />
+      <h1>
+        CONTACT
+      </h1>
+    </div>
   );
 };
 

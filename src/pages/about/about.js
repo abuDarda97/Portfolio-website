@@ -1,14 +1,17 @@
 import React from 'react';
+import Navigation from '../../components/Navbar/Navigation';
 
 import './about.css';
 
 const about = props => {
   return (
-    <section className='container'>
-      <h1 className='title'>
+    <div>
+      <Navigation />
+      <section className='container'>
+        <h1 className='title'>
         ABOUT ME:
-      </h1>
-      <div>
+        </h1>
+        <div>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
         Etiam bibendum turpis et fermentum sagittis. Nullam eu ex 
         eu massa suscipit vulputate. Mauris cursus quam nec erat bibendum 
@@ -18,8 +21,9 @@ const about = props => {
         Nam ornare mi ac efficitur mattis. Aenean pharetra massa augue, 
         quis hendrerit urna hendrerit nec. Mauris sit amet suscipit lectus. 
         Maecenas euismod purus enim, convallis ullamcorper nibh sollicitudin eget.
-      </div>
-    </section>
+        </div>
+      </section>
+    </div>
   );
 };
 

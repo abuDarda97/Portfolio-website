@@ -6,7 +6,7 @@ import {Button} from 'react-bootstrap';
 
 const home = () => {
   return (
-    <div>
+    <div id='home-background'>
       <div className='content-center'>
         <div className='font-style' id='sentence-formatting'>
           <div>
@@ -16,9 +16,11 @@ const home = () => {
             I'm a software developer
           </div>
         </div>
-        <Button variant='primary' size='lg'>
-          My work ...
+
+        <Button variant='primary' size='lg' href='/projects'>
+            My work ...
         </Button>
+
       </div>
       <Particles />
     </div>
