@@ -13,12 +13,12 @@ const home = () => {
             Hello, I'm <span id='name'>Abu Darda</span>!
           </div>
           <div>
-            I'm a software developer
+            I'm a Software Developer
           </div>
         </div>
 
-        <Button variant='primary' size='lg' href='/projects'>
-            My work ...
+        <Button variant='dark' size='lg' href='/projects'>
+          <span >My work ...</span>
         </Button>
 
       </div>

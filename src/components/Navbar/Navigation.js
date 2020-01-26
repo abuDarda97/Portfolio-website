@@ -1,9 +1,5 @@
 import React from 'react';
-
-// React bootstrap UI components
 import {Navbar, Nav} from 'react-bootstrap';
-
-// Custom css
 import './Navbar.css';
 
 class Navigation extends React.Component {

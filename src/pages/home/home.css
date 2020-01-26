@@ -1,5 +1,12 @@
 #name {
   color: aqua;
+  font-weight: bold;
+}
+
+.btn-dark {
+  font-family: 'Barlow', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
 }
 
 canvas{
