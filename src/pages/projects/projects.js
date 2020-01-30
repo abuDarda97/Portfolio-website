@@ -1,10 +1,8 @@
 import React from 'react';
 import Navigation from '../../components/Navbar/Navigation';
-import './projects.css';
 import { CardDeck } from 'react-bootstrap';
-
-
 import Cards from '../../components/Cards/Cards';
+import './projects.css';
 
 // Project images
 import drumsPic from '../../images/drums.jpg';
@@ -15,21 +13,29 @@ import tent from '../../images/tent.jpg';
 // Projects
 const yelpCamp = {
   img: tent,
-  text:''
+  text:'A website specifically for camp sites. Users can upload their favourite camps',
+  src:'https://github.com/abuDarda97/Yelp-Camp',
+  demo:'https://abu-yelp-camp.herokuapp.com/'
 };
 const reduxCalculator = {
   img: numbers,
-  text:''
+  text:'Simple calculator app built with react and redux.',
+  src:'https://github.com/abuDarda97/redux-calculator',
+  demo:'https://reduxulator.netlify.com/'
 };
 const randomQuote = {
   img: quotes,
-  text:''
+  text:'By clicking the New Quote! button a random inspirational quote would be displayed. Also, your favourite quote can be tweeted.',
+  src:'https://github.com/abuDarda97/random-quote-machine',
+  demo:'https://react-random-quotes.netlify.com/'
 };
 const drums = {
   img: drumsPic,
-  text:''
+  text:'Get ready to rock some awesome beats. Click on the keypads to play sounds or press the corresponding letter on your keyboard.',
+  src:'https://github.com/abuDarda97/drum-machine',
+  demo:'https://reactdrum.netlify.com/'
 };
-const text = 'dsjsdhnn db kb vkhbvdvkkjskjv jndbkjasdk dvjkkfnd jfdkmddkbkv ikdefkdf;dm bn dknkdgv g';
+
 const projects = () => {
   return (
     <div>
@@ -38,10 +44,10 @@ const projects = () => {
         PROJECTS
       </h1>
       <CardDeck id='card__deck'>
-        <Cards title='Yelp Camp' img={yelpCamp.img} />
-        <Cards title='Redux Calculator' img={reduxCalculator.img} text={text}/>
-        <Cards title='Random Quote Machine' img={randomQuote.img} text={text}/>
-        <Cards title='Drums' img={drums.img} text={text}/>
+        <Cards title='Yelp Camp' {...yelpCamp} />
+        <Cards title='Redux Calculator' {...reduxCalculator} />
+        <Cards title='Random Quote Machine' {...randomQuote} />
+        <Cards title='Drums' {...drums} />
       </CardDeck>
     </div>
   );

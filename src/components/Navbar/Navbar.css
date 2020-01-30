@@ -1,7 +1,3 @@
-.navbar__logo {
- color: pink;
-}
-
 .navbar__elements {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 1.3rem;
@@ -16,4 +12,11 @@
 .navbar__elements:hover {
   color: rgb(8, 8, 48);
   cursor: pointer;
+}
+
+/*Mobile Query*/
+@media only screen and (max-width: 480px) {
+  .navbar-brand {
+    margin-right: 40px;
+  }
 }
