@@ -11,13 +11,15 @@
   },
   "scripts": {
     "start": "webpack-dev-server --open",
-    "build": "webpack"
+    "dev": "node server.js",
+    "build": "webpack --mode production"
   },
   "keywords": [],
   "author": "Abu Darda",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.4.1",
+    "express": "^4.17.1",
     "particles.js": "^2.0.0",
     "react": "^16.12.0",
     "react-bootstrap": "^1.0.0-beta.16",
