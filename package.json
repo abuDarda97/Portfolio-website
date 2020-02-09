@@ -11,15 +11,19 @@
   },
   "scripts": {
     "start": "webpack-dev-server --open",
-    "dev": "node server.js",
+    "dev": "nodemon server.js",
     "build": "webpack --mode production"
   },
   "keywords": [],
   "author": "Abu Darda",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
     "bootstrap": "^4.4.1",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "nodemailer": "^6.4.2",
     "particles.js": "^2.0.0",
     "react": "^16.12.0",
     "react-bootstrap": "^1.0.0-beta.16",
