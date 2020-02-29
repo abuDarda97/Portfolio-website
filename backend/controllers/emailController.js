@@ -2,7 +2,7 @@ const nodemailer = require('nodemailer');
 const creds = require('../config');
 
 class EmailController {
-  sendEmail (req, res, next) {
+  sendEmail (req, res) {
     const name = req.body.name;
     const email = req.body.email;
     const message = req.body.message;
