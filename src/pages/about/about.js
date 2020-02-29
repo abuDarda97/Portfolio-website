@@ -7,7 +7,7 @@ const about = props => {
   return (
     <div>
       <Navigation />
-      <section className='container'>
+      <section className='about_container'>
         <h1 className='title'>
         ABOUT ME:
         </h1>
