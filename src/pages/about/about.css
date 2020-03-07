@@ -1,4 +1,40 @@
 .about__container {
-  padding: 10px;
+  padding: 50px;
   margin: 0 auto;
+  width: 800px;
+}
+
+.about__text{
+  font-size: 28px;
+}
+
+.keyword {
+  font-weight: bold;
+}
+
+#title {
+  text-align: center;
+  text-decoration: underline;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 48px;
+}
+
+/*Mobile Query*/
+@media only screen and (max-width: 480px) {
+  .about__container {
+    padding: 0px;
+    margin: 0 auto;
+    width: 280px;
+  }
+  
+  .about__text{
+    font-size: 18px;
+  }
+  
+  #title {
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 36px;
+  }
 }
