@@ -1,6 +1,4 @@
-.about_container {
-  height: 300px;
-  width: auto;
-  background: beige;
-  padding: 15px;
+.about__container {
+  padding: 10px;
+  margin: 0 auto;
 }

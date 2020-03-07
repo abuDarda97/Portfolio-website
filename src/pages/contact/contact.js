@@ -3,6 +3,7 @@ import axios from 'axios';
 import {Form, Button, Row, Col, Container} from 'react-bootstrap';
 import Navigation from '../../components/Navbar/Navigation';
 import Popup from '../../components/Popup/Popup';
+import Footer from '../../components/Footer/Footer';
 
 class Contact extends Component {
   constructor(props){  
@@ -87,6 +88,7 @@ class Contact extends Component {
             </Col>
           </Row>
         </Container>
+        <Footer />
       </div>
     );
   }

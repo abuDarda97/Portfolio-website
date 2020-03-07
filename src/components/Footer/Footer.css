@@ -1,0 +1,24 @@
+.footer__container {
+  margin: 0 auto;
+}
+a {
+  padding: 8px;
+}
+
+#github {
+  color: black;
+}
+
+#github:hover {
+  color: rgb(106, 106, 109);
+  cursor: pointer;
+}
+
+#linkedin {
+  color: rgb(10, 108, 253);
+}
+
+#linkedin:hover {
+  color: royalblue;
+  cursor: pointer;
+}

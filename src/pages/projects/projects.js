@@ -3,6 +3,7 @@ import Navigation from '../../components/Navbar/Navigation';
 import { CardDeck } from 'react-bootstrap';
 import Cards from '../../components/Cards/Cards';
 import './projects.css';
+import Footer from '../../components/Footer/Footer';
 
 // Project images
 import drumsPic from '../../images/drums.jpg';
@@ -49,6 +50,7 @@ const projects = () => {
         <Cards title='Random Quote Machine' {...randomQuote} />
         <Cards title='Drums' {...drums} />
       </CardDeck>
+      <Footer />
     </div>
   );
 };
