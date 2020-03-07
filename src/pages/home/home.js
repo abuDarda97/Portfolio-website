@@ -18,7 +18,7 @@ const home = () => {
         </div>
 
         <Button variant='dark' size='lg' href='/projects'>
-          <span >My work ...</span>
+          <span >My work</span>
         </Button>
 
       </div>
