@@ -13,7 +13,12 @@ class Footer extends Component {
           <a id='github' target='_blank' href='https://github.com/abuDarda97'>
             <i className='fab fa-github fa-lg'></i>
           </a>
-        </div> 
+        </div>
+        <div id='copyright__container'>
+          <span className='footer__text'>Abu Darda</span> 
+          <i id='copyright' className='far fa-copyright fa-xs'></i>
+          <span className='footer__text'>2020</span> 
+        </div>
       </Navbar> 
     );  
   }  

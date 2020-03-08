@@ -20,7 +20,6 @@ const home = () => {
         <Button variant='dark' size='lg' href='/projects'>
           <span >My work</span>
         </Button>
-
       </div>
       <Particles />
     </div>

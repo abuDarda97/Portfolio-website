@@ -1,12 +1,14 @@
 .footer__container {
   margin: 0 auto;
 }
-a {
-  padding: 8px;
+
+.footer__text {
+  font-size: 14px;
 }
 
 #github {
   color: black;
+  padding: 8px;
 }
 
 #github:hover {
@@ -16,9 +18,50 @@ a {
 
 #linkedin {
   color: rgb(10, 108, 253);
+  padding: 8px;
 }
 
 #linkedin:hover {
   color: rgb(131, 158, 240);
   cursor: pointer;
+}
+
+#copyright__container {
+  margin-right: 5px;
+  overflow: hidden;
+}
+
+#copyright {
+  margin: 5px;
+}
+
+/*Mobile Query*/
+@media only screen and (max-width: 414px) {
+  .footer__container {
+    margin-left: 160px;
+  }
+
+  .footer__text {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .footer__container {
+    margin-left: 140px;
+  }
+
+  .footer__text {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .footer__container {
+    margin-left: 80px;
+  }
+
+  .footer__text {
+    font-size: 10px;
+  }
 }

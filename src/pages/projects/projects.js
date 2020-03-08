@@ -26,7 +26,7 @@ const reduxCalculator = {
 };
 const randomQuote = {
   img: quotes,
-  text:'By clicking the New Quote! button a random inspirational quote would be displayed. Also, your favourite quote can be tweeted.',
+  text:'By clicking the "New Quote" button a random inspirational quote would be displayed. Also, your favourite quote can be tweeted.',
   src:'https://github.com/abuDarda97/random-quote-machine',
   demo:'https://react-random-quotes.netlify.com/'
 };
