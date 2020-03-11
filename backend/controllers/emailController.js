@@ -13,8 +13,8 @@ class EmailController {
       secureConnection: false, 
       port: 587, 
       auth: {
-        user: creds.USER,
-        pass: creds.PASS
+        user: process.env.EMAIL,
+        pass: process.env.PASS
       },
       tls: {
         ciphers:'SSLv3'
