@@ -21,7 +21,7 @@ class Contact extends Component {
     const message = document.getElementById('message').value;
     axios({
       method: 'POST', 
-      url:'http://localhost:5000/contact/send', 
+      url:'http://abudarda.herokuapp.com/contact/send', 
       data: {
         name: name,   
         email: email,  
