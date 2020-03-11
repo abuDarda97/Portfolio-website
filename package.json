@@ -10,7 +10,8 @@
     ]
   },
   "scripts": {
-    "start": "webpack-dev-server --open",
+    "start-webpack": "webpack-dev-server --open",
+    "start":"nodemon server.js",
     "dev": "nodemon server.js",
     "build": "webpack --mode production"
   },
