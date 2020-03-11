@@ -58,6 +58,7 @@ class Contact extends Component {
       <div>
         <Navigation />
         <Container>
+          <h1 className='title'>Contact me</h1>
           <Row>
             <Col>
               {

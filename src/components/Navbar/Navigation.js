@@ -11,7 +11,7 @@ class Navigation extends React.Component {
         <Navbar.Collapse id='responsive-navbar-nav'>
           <Nav>
             <a className='navbar__elements'href='/'>Home</a>
-            <a className='navbar__elements'href='/about'>About</a>
+            <a className='navbar__elements'href='/about'>About me</a>
             <a className='navbar__elements'href='/projects'>Projects</a>
             <a className='navbar__elements'href='/contact'>Contact</a>
           </Nav>
