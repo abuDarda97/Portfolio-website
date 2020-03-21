@@ -59,7 +59,7 @@ class Contact extends Component {
       <div>
         <Navigation />
         <Container>
-          <h3 className='contact__title'>Contact me</h3>
+          <div className='contact__title'>Contact me</div>
           <Row>
             <Col>
               {
