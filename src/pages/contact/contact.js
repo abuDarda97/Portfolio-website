@@ -4,6 +4,7 @@ import {Form, Button, Row, Col, Container} from 'react-bootstrap';
 import Navigation from '../../components/Navbar/Navigation';
 import Popup from '../../components/Popup/Popup';
 import Footer from '../../components/Footer/Footer';
+import './contact.css';
 
 class Contact extends Component {
   constructor(props){  
@@ -58,7 +59,7 @@ class Contact extends Component {
       <div>
         <Navigation />
         <Container>
-          <h1 className='title'>Contact me</h1>
+          <h3 className='contact__title'>Contact me</h3>
           <Row>
             <Col>
               {
@@ -82,7 +83,7 @@ class Contact extends Component {
                       <textarea className='form-control' rows='5' id='message' placeholder='Type your message...'></textarea>
                     </Form.Group>
                     <Button variant='primary' type='submit'>
-                      Submit
+                    Submit
                     </Button>
                   </Form>
               } 
