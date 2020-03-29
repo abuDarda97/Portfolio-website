@@ -12,7 +12,18 @@ module.exports = {
     rules: [
       { test: /\.(js)$/, use: 'babel-loader' },
       { test: /\.css$/, use: ['style-loader', 'css-loader' ]},
-      { test: /\.(png|svg|jpg|gif)$/, use: 'file-loader'}
+      { 
+        test: /\.(png|svg|jpg|gif)$/, 
+        use:
+         [
+           {
+             loader: 'url-loader',
+           },
+           {
+             loader: 'image-webpack-loader',
+           }
+         ]
+      }
     ]
   },
   mode: 'development',
