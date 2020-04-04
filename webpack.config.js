@@ -1,7 +1,6 @@
 const path = require('path');
 const HTMLWebpackPlugin = require('html-webpack-plugin');
-const BrotliPlugin = require('brotli-webpack-plugin');
-
+const CompressionPlugin = require('compression-webpack-plugin');
 
 module.exports = {
   entry: './src/index.js',
@@ -23,6 +22,12 @@ module.exports = {
            },
            {
              loader: 'image-webpack-loader',
+             options: {
+               mozjpeg: {
+                 progressive: true,
+                 quality: 65
+               }
+             },
            }
          ]
       }
@@ -52,11 +57,8 @@ module.exports = {
     new HTMLWebpackPlugin({
       template: 'src/index.html'
     }),
-    new BrotliPlugin({
-      asset: '[path].br[query]',
-      test: /\.(js|css|html|svg)$/,
-      threshold: 10240,
-      minRatio: 0.8
+    new CompressionPlugin({
+      test: /\.js(\?.*)?$/i,
     })
   ]
 };

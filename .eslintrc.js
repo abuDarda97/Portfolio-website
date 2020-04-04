@@ -13,17 +13,20 @@ module.exports = {
         "Atomics": "readonly",
         "SharedArrayBuffer": "readonly"
     },
+    "parser": "babel-eslint",
     "parserOptions": {
         "ecmaFeatures": {
             "jsx": true
         },
         "ecmaVersion": 2018,
-        "sourceType": "module"
-    },
+        "sourceType": "module",
+        "allowImportExportEverywhere": true
+        },
     "plugins": [
         "react"
     ],
     "rules": {
+        "react/no-unescaped-entities":"off",
         "no-console": "off",
         "react/prop-types": 0,
         "indent": [
