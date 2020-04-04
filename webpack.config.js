@@ -1,5 +1,7 @@
 const path = require('path');
 const HTMLWebpackPlugin = require('html-webpack-plugin');
+const BrotliPlugin = require('brotli-webpack-plugin');
+
 
 module.exports = {
   entry: './src/index.js',
@@ -26,6 +28,17 @@ module.exports = {
       }
     ]
   },
+  optimization: {
+    splitChunks: {
+      cacheGroups: {
+        commons: {
+          test: /[\\/]node_modules[\\/]/,
+          name: 'index',
+          chunks: 'all'
+        }
+      },
+    }
+  },
   mode: 'development',
   devServer: {
     historyApiFallback: true,
@@ -38,6 +51,12 @@ module.exports = {
   plugins: [
     new HTMLWebpackPlugin({
       template: 'src/index.html'
+    }),
+    new BrotliPlugin({
+      asset: '[path].br[query]',
+      test: /\.(js|css|html|svg)$/,
+      threshold: 10240,
+      minRatio: 0.8
     })
   ]
 };

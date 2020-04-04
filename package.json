@@ -37,6 +37,7 @@
     "@babel/preset-env": "^7.7.7",
     "@babel/preset-react": "^7.7.4",
     "babel-loader": "^8.0.6",
+    "brotli-webpack-plugin": "^1.1.0",
     "css-loader": "^2.1.1",
     "eslint": "^5.16.0",
     "eslint-plugin-import": "^2.20.0",
