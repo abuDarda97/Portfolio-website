@@ -11,7 +11,16 @@ module.exports = {
   },
   module: {
     rules: [
-      { test: /\.(js)$/, use: 'babel-loader' },
+      { test: /\.(js)$/, 
+        exclude: /(node_modules)/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['@babel/preset-react', '@babel/preset-env'],
+            plugins: ['emotion']
+          }
+        }
+      },
       { test: /\.css$/, use: ['style-loader', 'css-loader' ]},
       { 
         test: /\.(png|svg|jpg|gif)$/, 

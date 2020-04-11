@@ -30,7 +30,8 @@
     "react-bootstrap": "^1.0.0-beta.16",
     "react-dom": "^16.12.0",
     "react-particles-js": "^2.7.0",
-    "react-router-dom": "^5.1.2"
+    "react-router-dom": "^5.1.2",
+    "react-spinners": "^0.8.1"
   },
   "devDependencies": {
     "@babel/core": "^7.7.7",
@@ -39,6 +40,7 @@
     "@babel/preset-react": "^7.7.4",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.0.6",
+    "babel-plugin-emotion": "^10.0.33",
     "compression-webpack-plugin": "^3.1.0",
     "css-loader": "^2.1.1",
     "eslint": "^5.16.0",
