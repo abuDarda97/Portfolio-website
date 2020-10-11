@@ -11,9 +11,9 @@ const about = () => {
       <div className='about__container'>
         <h3 id='title'>ABOUT ME:</h3>
         <div className='about__text'>
-          I am a <span className='keyword'>passionate </span>fullstack software developer, 
-          I enjoy engineering <span className='keyword'>complex</span> applications. I work on 
-          both <span className='keyword'>backend</span> and <span className='keyword'>frontend</span>. When I am not querying databases 
+          I am a <span className='keyword'>passionate</span>, fullstack software engineer. 
+          I enjoy building <span className='keyword'>complex</span> and <span className='keyword'>efficient</span> applications. I work on 
+          both <span className='keyword'>frontend</span> and <span className='keyword'>backend</span>. When I am not optimising databases 
           or aligning pixels, I love watching Boxing and MMA. 
         </div>
       </div>

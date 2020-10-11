@@ -13,7 +13,7 @@ const home = () => {
             Hello, I'm <span id='name'>Abu Darda</span>!
           </div>
           <div>
-            I'm a Software Developer
+            I'm a Software Engineer
           </div>
         </div>
 
