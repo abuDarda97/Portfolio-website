@@ -17,7 +17,7 @@
   text-align: center;
   text-decoration: underline;
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 48px;
+  font-size: 3rem;
 }
 
 /*Mobile Query*/
@@ -36,6 +36,5 @@
     text-align: center;
     text-decoration: underline;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 36px;
   }
 }

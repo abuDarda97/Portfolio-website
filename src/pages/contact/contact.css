@@ -1,8 +1,8 @@
 .contact__title {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 3rem;
-  font-weight: bold;
   text-align: center;
+  text-decoration: underline;
 }
   
   @media only screen and (max-width: 375px) {
@@ -16,7 +16,6 @@
   .contact__title {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 2rem;
-    font-weight: bold;
     text-align: center;
   }
   #message {
