@@ -22,7 +22,7 @@ class Contact extends Component {
     const message = document.getElementById('message').value;
     axios({
       method: 'POST', 
-      url:'http://abudarda.co.uk/contact/send', 
+      url:'https://abudarda.co.uk/contact/send', 
       data: {
         name: name,   
         email: email,  
