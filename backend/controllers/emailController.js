@@ -13,8 +13,8 @@ class EmailController {
       secureConnection: false, 
       port: 587, 
       auth: {
-        user: process.env.EMAIL,
-        pass: process.env.PASS
+        user: creds.USER,
+        pass: creds.PASS
       },
       tls: {
         ciphers:'SSLv3'
@@ -31,7 +31,7 @@ class EmailController {
       }
     });
     
-    var mail = {
+    let mail = {
       from: name,
       to: creds.USER,
       subject: 'New Message from Contact Form',
@@ -40,11 +40,12 @@ class EmailController {
     
     transporter.sendMail(mail, (err, data) => {
       if (err) {
-        res.json({
+        console.log(err)
+        res.status(400).send({
           msg: 'fail'
-        });
+        })
       } else {
-        res.json({
+        res.status(200).send({
           msg: 'success'
         });
       }

@@ -7,7 +7,9 @@ class Popup extends Component {
       <Modal.Dialog>
         <Modal.Body>
           <p>{this.props.text}</p>
-          <Button variant='secondary' onClick={this.props.closePopup}>Close</Button>
+          <div className='col text-center'>
+            <Button variant='secondary' onClick={this.props.closePopup}>Close</Button>          
+          </div>
         </Modal.Body>
       </Modal.Dialog> 
     );  

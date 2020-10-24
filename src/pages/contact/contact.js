@@ -28,14 +28,24 @@ class Contact extends Component {
         email: email,  
         message: message
       }
-    }).then((response)=>{
-      this.changeText(response.data.msg);
-      this.togglePopup();
-      this.resetForm();
+    }).then(response => {
+      const { data: { msg } } = response;
+      this.handleResponse(msg);
+    }).catch(err => {
+      console.log(err);
+      this.handleResponse(err);
     });
   }
   resetForm(){
-    document.getElementById('contact-form').reset();
+    const form = document.getElementById('contact-form');
+    if(form){
+      form.reset();
+    }
+  }
+  handleResponse(response){
+    this.changeText(response);
+    this.togglePopup();
+    this.resetForm();
   }
   changeText(status){
     if(status === 'success'){
@@ -44,7 +54,7 @@ class Contact extends Component {
       });
     } else {
       this.setState({  
-        text: 'Failed to send message.' 
+        text: 'Failed to send message please try again later.' 
       });
     }
   }
@@ -69,7 +79,7 @@ class Contact extends Component {
                     closePopup={this.togglePopup.bind(this)}
                   />
                   : 
-                  <Form id='contact-form' onSubmit={this.handleSubmit.bind(this)} method='POST'>
+                  <Form id='contact-form' role='form' name='contact-form' onSubmit={this.handleSubmit.bind(this)} method='POST'>
                     <Form.Group controlId='formName'>
                       <Form.Label>Name</Form.Label>
                       <Form.Control type='formName' placeholder='Enter your name...' />
