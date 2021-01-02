@@ -10,7 +10,7 @@ class Footer extends Component {
           <a id='linkedin' target='_blank' href='https://www.linkedin.com/in/abu-darda-528b7a110' >
             <i className='fab fa-linkedin fa-lg'></i>
           </a>
-          <a id='github' target='_blank' href='https://github.com/abuDarda97'>
+          <a id='github' target='_blank' href='https://github.com/abu271'>
             <i className='fab fa-github fa-lg'></i>
           </a>
         </div>

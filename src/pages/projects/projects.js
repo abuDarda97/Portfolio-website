@@ -15,25 +15,25 @@ import tent from '../../images/tent.jpg';
 const yelpCamp = {
   img: tent,
   text:'A website specifically for camp sites. Users can upload their favourite camps',
-  src:'https://github.com/abuDarda97/Yelp-Camp',
+  src:'https://github.com/abu271/Yelp-Camp',
   demo:'https://abu-yelp-camp.herokuapp.com/'
 };
 const reduxCalculator = {
   img: numbers,
   text:'Simple calculator app built with react and redux.',
-  src:'https://github.com/abuDarda97/redux-calculator',
+  src:'https://github.com/abu271/redux-calculator',
   demo:'https://reduxulator.netlify.com/'
 };
 const randomQuote = {
   img: quotes,
   text:'By clicking the "New Quote" button a random inspirational quote would be displayed. Also, your favourite quote can be tweeted.',
-  src:'https://github.com/abuDarda97/random-quote-machine',
+  src:'https://github.com/abu271/random-quote-machine',
   demo:'https://react-random-quotes.netlify.com/'
 };
 const drums = {
   img: drumsPic,
   text:'Get ready to rock some awesome beats. Click on the keypads to play sounds or press the corresponding letter on your keyboard.',
-  src:'https://github.com/abuDarda97/drum-machine',
+  src:'https://github.com/abu271/drum-machine',
   demo:'https://reactdrum.netlify.com/'
 };
 
